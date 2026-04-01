@@ -1,8 +1,8 @@
 import google.generativeai as genai
 import requests
 
-GEMINI_API_KEY = "AIzaSyAY2XLyAyGQpinjDxVWlo5iQT8nfPqNmno"
-TAVILY_API_KEY = "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"
+GEMINI_API_KEY = "PASTE YOUR GEMINI API_KEY"
+TAVILY_API_KEY = "PASTE YOUR TAVILY API_KEY"
 
 genai.configure(api_key=GEMINI_API_KEY)
 
